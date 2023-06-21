@@ -1,20 +1,15 @@
-#include <stdio.h>
+#include "main.h"
+
 /**
- *  main - functions nested loops tasks
- *
- * Return: Always (0)
+ * print_alphabet - print in lower case
  */
-int main(void)
+
+void print_alphabet(void)
 {
 	char b;
 
-	b = 'a';
+	for (b = 'a'; b <= 'z'; b++)
+		_putchar(b);
 
-	while (b <= 'z')
-	{
-		putchar(b);
-		b++;
-	}
-	putchar('\n');
-	return (0);
+	_putchar('\n');
 }
