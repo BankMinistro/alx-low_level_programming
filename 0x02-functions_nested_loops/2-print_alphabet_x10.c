@@ -1,10 +1,9 @@
-#include <main.h>
+#include "main.h"
 /**
- *  main - functions nested loops tasks
+ * print_alphabet_x10 - print lowerrcasse ten times
  *
- * Return: Always (0)
  */
-int main(void)
+void print_alphabet_x10(void)
 {
 	int i = 0, b;
 
@@ -13,11 +12,10 @@ int main(void)
 		b = 'a';
 		while (b <= 'z')
 		{
-			putchar(b);
+			_putchar(b);
 			b++;
 		}
-		putchar('\n');
+		_putchar('\n');
 		i++;
 	}
-	return (0);
 }
