@@ -6,6 +6,15 @@
  */
 int main(void)
 {
-	printf("_putchar\n");
+	char b;
+
+	b = 'a';
+
+	while (b <= 'z')
+	{
+		putchar(b);
+		b++;
+	}
+	putchar('\n');
 	return (0);
 }
